@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Baye's theorem</title>
+        <link rel="stylesheet" href="index.css" />
+        <link href="https://fonts.googleapis.com/css?family=Sniglet" rel="stylesheet">
+    </head>
+    <body>
+        <div id="tip">
+            <p>Enter values as shown in sample, put empty space between numbers.</p>
+        </div>
+        <div id="container">
+            <div id="label1">
+                <label>Number of Servers:</label>
+                <input type="text" id="server" placeholder="3"/>
+            </div>
+            <div id="label2">
+                <label>Requests to server:</label>
+                <input type="text" id="serverRequest" placeholder="12 3 25"/>
+            </div> 
+            <div id="label3">
+                <label>Bad requests to server:</label>
+                <input type="text" id="badRequest" placeholder="45 7 19" />
+            </div>
+            <button onclick="generateBarGraph()" id="generate_button">Check the Probability</button>
+            <button onclick="reload()">Clear and Generate</button>
+        </div>
+        <table id="tableColors"></table>
+        <table id="table"></table>
+        <table id="tableData">
+            <tr>
+                <td>0</td>
+                <td>0.25</td>
+                <td>0.5</td>
+                <td>0.75</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </body>
+    <script src="index.js"></script>
+</html>
