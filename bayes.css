@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    margin: 40px 0 0 200px;
+}
+
+#label1 {
+    float: left;
+    width: 33%;
+}
+
+#label2 {
+    float: left;
+    width: 33%;
+}
+
+#label3 {
+    float: left;
+    width: 33%;
+}
+
+#label1 label, 
+#label2 label,
+#label3 label {
+    display: block;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    color: brown;
+    background: white;
+    font-size: 14px;
+}
+
+button:hover {
+    background: brown;
+    color: white;
+}
+
+#table {
+    margin: 50px 0 0 165px;
+    border-collapse: collapse;
+}
+
+#table td {
+    padding: 10px 30px 10px 0;
+}
+
+.td_odd {
+	border-right: 1px solid #000;
+}
+
+#tableData {
+    margin: 0 0 0 253px;
+    text-align: center;
+    width: 940px;
+    visibility: hidden;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+#tableData td:first-child {
+    text-align: left;
+}
+
+#tableData td:last-child {
+    text-align: right;
+}
+
+#tableColors {
+    margin: 50px 0 0 260px;
+}
+
+#tableColors td {
+    width: 60px;
+}
+
+.color {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.div {
+    border-radius: 7px;
+    margin-left: 3px;
+}
+
+input {
+    padding: 2px;
+    border-radius: 4px;
+    outline-color: red;   
+}
+
+#tip {
+    margin: 100px 0 0 200px;
+}
+
+#tip p {
+    color: red;
+    font-family: 'Sniglet', cursive;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+
+
+
